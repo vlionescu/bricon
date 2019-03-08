@@ -1,0 +1,10 @@
+.video-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-card__iframe {
+    height: 400px;
+    width: 600px;
+}
