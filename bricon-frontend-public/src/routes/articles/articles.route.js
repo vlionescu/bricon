@@ -14,6 +14,7 @@ class ArticlesRoute extends Component {
         return (
             <main className={styles.articles__container}>
                 <Article title={'this is a title wow'} content={text} />
+                <Article title={'this is a title wow'} content={text} />
             </main>
         )
     }

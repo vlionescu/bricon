@@ -1,28 +1,25 @@
-'use strict';
-
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const cors = require('cors');
-
 const app = express();
 
+const articleRoutes = require('./routes/article.route');
+
+mongoose.connect('mongodb://localhost:27017/bricon');
+
 app.use(cors());
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
 
 app.listen(2000, () => {
     console.log('Server running on port 2000');
 });
 
-// routes(accounts);
-// routes(activities);
-// routes(shopProducts);
-// routes(dashboard);
-// routes(admin);
-//
-// function routes(routes){
-//     routes.forEach(function(route){
-//         app[route.method](route.url, route.callback);
-//     });
-// }
-//
+const makeRoutes = routes => {
+    routes.forEach(route => app[route.method](route.url, route.callback));
+};
+
+makeRoutes(articleRoutes);
+
 module.exports = app;
