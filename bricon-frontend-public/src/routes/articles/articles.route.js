@@ -1,20 +1,37 @@
 import React, { Component } from 'react';
 
+import articlesHelper from '../../helpers/articles.helper';
+
 import Article from './components/article.component';
+
 import styles from './articles.route.module.css';
 
-const text = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid commodi consectetur consequatur enim error explicabo facere illo impedit ipsum nemo odio officia provident quidem sunt temporibus, tenetur, unde voluptatum. lorem`;
 class ArticlesRoute extends Component {
+    state = {
+        articles: [],
+    };
+
     constructor(props) {
         super(props);
     }
 
+    componentDidMount() {
+        articlesHelper.getArticles()
+            .then(articles => {
+                this.setState({ articles });
+            })
+    }
 
     render() {
+        const { articles } = this.state;
+
         return (
             <main className={styles.articles__container}>
-                <Article title={'this is a title wow'} content={text} />
-                <Article title={'this is a title wow'} content={text} />
+            {
+                articles.map(({ title, text }) => (
+                    <Article title={title} content={text} />
+                ))
+            }
             </main>
         )
     }
