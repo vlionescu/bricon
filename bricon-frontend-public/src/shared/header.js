@@ -17,34 +17,34 @@ const Header = () => {
                         activeClassName={styles['header__navigation-link-selected']}
                         className={styles['header__navigation-link']}
                     >
-                        home
+                        acasa
                     </NavLink>
                 </li>
                 <li>
                     <NavLink
-                        to="/products"
+                        to="/produse"
                         activeClassName={styles['header__navigation-link-selected']}
                         className={styles['header__navigation-link']}
                     >
-                        products
+                        produse
                     </NavLink>
                 </li>
                 <li>
                     <NavLink
-                        to="/articles"
+                        to="/articole"
                         activeClassName={styles['header__navigation-link-selected']}
                         className={styles['header__navigation-link']}
                     >
-                        articles
+                        articole
                     </NavLink>
                 </li>
                 <li>
                     <NavLink
-                        to="/instructions"
+                        to="/instructiuni"
                         activeClassName={styles['header__navigation-link-selected']}
                         className={styles['header__navigation-link']}
                     >
-                        instructional videos
+                        instructiuni
                     </NavLink>
                 </li>
                 <li>
@@ -53,7 +53,7 @@ const Header = () => {
                         activeClassName={styles['header__navigation-link-selected']}
                         className={styles['header__navigation-link']}
                     >
-                        software download
+                        software
                     </NavLink>
                 </li>
             </ul>

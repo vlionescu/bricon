@@ -1,0 +1,46 @@
+@value colors: '../../../styles/colors.module.css';
+@value spacings: '../../../styles/spacings.module.css';
+
+@value _gray, _main from colors;
+@value _mainSpacing from spacings;
+
+.article__container {
+    width: 800px;
+    border: 1px solid _gray;
+    border-radius: 5px;
+    margin-bottom: _mainSpacing;
+    position: relative;
+    overflow: hidden;
+}
+
+.article__container--collapsed {
+    height:60px;
+}
+
+.article__container--expanded {
+    height: 100%;
+}
+
+.article__title {
+    width: 90%;
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.article__content-closed {
+    width: 90%;
+    border-radius: 4px;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+}
+
+.article__icon {
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+    font-size: 42px;
+    cursor: pointer;
+    color: _main;
+}
