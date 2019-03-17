@@ -1,9 +1,9 @@
 @value colors: '../styles/colors.module.css';
-@value _main, _gray from colors;
+@value main, gray from colors;
 
 .header__container {
     height: 150px;
-    border-bottom: 1px solid _main;
+    border-bottom: 1px solid main;
     display: flex;
     align-items: flex-end;
 }
@@ -38,9 +38,9 @@
 }
 
 .header__navigation-link:hover {
-    border-bottom: 10px solid _main;
+    border-bottom: 10px solid main;
 }
 
 .header__navigation-link-selected {
-    border-bottom: 10px solid _main;
+    border-bottom: 10px solid main;
 }

@@ -1,1 +1,3 @@
-@value _mainSpacing: 40px;
+@value main-spacing: 40px;
+@value button-padding: 6px 24px;
+@value main-padding: 12px 24px;

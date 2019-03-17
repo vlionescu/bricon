@@ -1,12 +1,12 @@
 import makeCall from '../services/http.service';
 
-const getArticles = () => {
+const getDownloads = () => {
     return makeCall({
-        path: '/articles',
+        path: '/downloads',
         method: 'GET',
-    })
+    }).then(res => res.downloads);
 };
 
 export default {
-    getArticles,
+    getDownloads,
 }

@@ -49,7 +49,7 @@ const Header = () => {
                 </li>
                 <li>
                     <NavLink
-                        to="/software"
+                        to="/downloads"
                         activeClassName={styles['header__navigation-link-selected']}
                         className={styles['header__navigation-link']}
                     >

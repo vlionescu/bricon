@@ -1,14 +1,14 @@
 @value colors: '../../../styles/colors.module.css';
 @value spacings: '../../../styles/spacings.module.css';
 
-@value _gray, _main from colors;
-@value _mainSpacing from spacings;
+@value gray, main from colors;
+@value main-spacing from spacings;
 
 .article__container {
     width: 800px;
-    border: 1px solid _gray;
+    border: 1px solid gray;
     border-radius: 5px;
-    margin-bottom: _mainSpacing;
+    margin-bottom: main-spacing;
     position: relative;
     overflow: hidden;
 }
@@ -42,5 +42,5 @@
     bottom: 8px;
     font-size: 42px;
     cursor: pointer;
-    color: _main;
+    color: main;
 }

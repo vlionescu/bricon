@@ -17,7 +17,7 @@ const addArticle = async (req, res) => {
     try {
         const article = await articleRepository.addArticle(req.body);
 
-        res.json({
+        res.status(201).json({
             success: true,
             payload: {
                 id: article.id,
@@ -30,11 +30,13 @@ const addArticle = async (req, res) => {
 
 const deleteArticle = async (req, res) => {
     try {
-       await articleRepository.deleteArticle(req.body);
+       const deleted = await articleRepository.deleteArticle(req.body);
 
-        res.json({
-            success: true,
-        });
+        if(deleted.deletedCount) {
+            res.json({ success: true });
+        } else {
+            res.status(404).json({ success: false })
+        }
     } catch (err) {
         res.status(400).send(err);
     }

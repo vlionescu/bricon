@@ -14,7 +14,7 @@ const makeCall = async ({path, method, data}) => {
         fetch(url, options)
             .then(resp => resp.json())
             .then(resp => {
-                return resp.success ? resolve(resp.payload.articles) : reject(resp);
+                return resp.success ? resolve(resp.payload) : reject(resp);
             });
     });
 };

@@ -9,7 +9,7 @@ import {
     InstructionsRoute,
     NotFoundRoute,
     ProductsRoute,
-    SoftwareRoute,
+    DownloadsRoute,
 } from '../index';
 
 configure({adapter: new Adapter()});
@@ -45,7 +45,7 @@ test('ProductsRoute should render', () => {
 });
 
 test('SoftwareRoute should render', () => {
-    const wrapper = mount(<SoftwareRoute/>);
+    const wrapper = mount(<DownloadsRoute/>);
 
     expect(wrapper.exists()).toBe(true);
 });

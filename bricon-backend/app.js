@@ -4,7 +4,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
 
-const articleRoutes = require('./routes/article.route');
+const articleRoutes  = require('./routes/article.route');
+const downloadRoutes = require('./routes/download.route');
 
 mongoose.connect('mongodb://localhost:27017/bricon');
 
@@ -21,5 +22,6 @@ const makeRoutes = routes => {
 };
 
 makeRoutes(articleRoutes);
+makeRoutes(downloadRoutes);
 
 module.exports = app;

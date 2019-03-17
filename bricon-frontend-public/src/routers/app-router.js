@@ -8,7 +8,7 @@ import {
     InstructionsRoute,
     NotFoundRoute,
     ProductsRoute,
-    SoftwareRoute,
+    DownloadsRoute,
 } from '../routes/index';
 
 const AppRouter = () => {
@@ -21,7 +21,7 @@ const AppRouter = () => {
                     <Route path="/produse" component={ProductsRoute}/>
                     <Route path="/articole" component={ArticlesRoute}/>
                     <Route path="/instructiuni" component={InstructionsRoute}/>
-                    <Route path="/software" component={SoftwareRoute}/>
+                    <Route path="/downloads" component={DownloadsRoute}/>
                     <Route component={NotFoundRoute}/>
                 </Switch>
             </div>
