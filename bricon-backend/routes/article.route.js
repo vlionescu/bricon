@@ -1,20 +1,13 @@
+const express = require('express');
+
 const articleHandler = require('../handlers/article.handler');
 
-module.exports = [
-    {
-        method: 'get',
-        url: '/articles',
-        callback: articleHandler.getArticles,
-    },
-    {
-        method: 'post',
-        url: '/articles',
-        callback: articleHandler.addArticle,
-    },
-    {
-        method: 'delete',
-        url: '/articles/:id',
-        callback: articleHandler.deleteArticle,
-    },
-];
+const router = express.Router();
 
+router.get('/', articleHandler.getArticles);
+
+router.post('/', articleHandler.addArticle);
+
+router.delete('/:id', articleHandler.deleteArticle);
+
+module.exports = router;

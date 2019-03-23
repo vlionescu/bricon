@@ -1,20 +1,13 @@
+const express = require('express');
+
 const downloadHandler = require('../handlers/download.handler');
 
-module.exports = [
-    {
-        method: 'get',
-        url: '/downloads',
-        callback: downloadHandler.getDownloads,
-    },
-    {
-        method: 'post',
-        url: '/downloads',
-        callback: downloadHandler.addDownload,
-    },
-    {
-        method: 'delete',
-        url: '/downloads/:id',
-        callback: downloadHandler.deleteDownload,
-    },
-];
+const router = express.Router();
 
+router.get('/', downloadHandler.getDownloads);
+
+router.post('/', downloadHandler.addDownload);
+
+router.delete('/:id', downloadHandler.deleteDownload);
+
+module.exports = router;

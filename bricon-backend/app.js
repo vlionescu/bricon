@@ -1,27 +1,26 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
 
 const articleRoutes  = require('./routes/article.route');
+const categoryRoutes = require('./routes/category.route');
 const downloadRoutes = require('./routes/download.route');
-
-mongoose.connect('mongodb://localhost:27017/bricon');
+const productRoutes  = require('./routes/product.route');
 
 app.use(cors());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+require( './config/mongoose' )( app );
+
+app.use('/articles', articleRoutes);
+app.use('/categories', categoryRoutes);
+app.use('/downloads', downloadRoutes);
+app.use('/products', productRoutes);
+
 app.listen(2000, () => {
     console.log('Server running on port 2000');
 });
-
-const makeRoutes = routes => {
-    routes.forEach(route => app[route.method](route.url, route.callback));
-};
-
-makeRoutes(articleRoutes);
-makeRoutes(downloadRoutes);
 
 module.exports = app;

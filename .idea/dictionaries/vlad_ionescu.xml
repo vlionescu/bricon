@@ -3,8 +3,11 @@
     <words>
       <w>articole</w>
       <w>bricon</w>
+      <w>cloudinary</w>
       <w>instructiuni</w>
+      <w>multer</w>
       <w>produse</w>
+      <w>upsert</w>
     </words>
   </dictionary>
 </component>

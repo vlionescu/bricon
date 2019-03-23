@@ -1,0 +1,9 @@
+@value font-sm: 12px;
+@value font-md: 14px;
+@value font-lg: 18px;
+@value font-xl: 24px;
+
+@value sans-serif-secondary-font: 'Rubik', sans-serif;
+@value sans-serif-primary-font: 'Josefin Sans', sans-serif;
+@value serif-primary-font: 'Lora', serif;
+

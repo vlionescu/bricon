@@ -14,5 +14,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="@types/css-modules" level="application" />
     <orderEntry type="library" name="@types/jest" level="application" />
+    <orderEntry type="library" name="@types/node" level="application" />
   </component>
 </module>
