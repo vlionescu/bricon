@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import cx from 'classnames';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 import styles from './article.component.module.css';
 
 class Article extends Component {
@@ -29,6 +27,19 @@ class Article extends Component {
         );
     };
 
+    _getIconClass = () => {
+        const { expanded } = this.state;
+
+        return cx(
+            'fa',
+            styles.article__icon,
+            {
+                'fa-angle-up': expanded,
+                'fa-angle-down': !expanded
+            }
+        );
+    };
+
     render() {
         const { title, content } = this.props;
         const { expanded } = this.state;
@@ -37,11 +48,7 @@ class Article extends Component {
             <article className={this._getContainerClass()}>
                 <h1 className={styles.article__title}>{title}</h1>
                 <p >{content}</p>
-                <FontAwesomeIcon
-                    icon={expanded ? 'angle-up' : 'angle-down'}
-                    className={styles.article__icon}
-                 onClick={this._toggleExpand}
-                />
+                <i className={this._getIconClass()} onClick={this._toggleExpand}/>
             </article>
         );
     }

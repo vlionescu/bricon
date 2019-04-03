@@ -1,0 +1,50 @@
+@value colors: '../../styles/colors.module.css';
+@value spacings: '../../styles/spacings.module.css';
+@value fonts: '../../styles/fonts.module.css';
+
+@value main, _green from colors;
+@value button-padding from spacings;
+@value font-lg, font-xl, sans-serif-secondary-font, sans-serif-primary-font, serif-primary-font from fonts;
+
+.product__container {
+    min-height: calc(100vh - 160px);
+    display: flex;
+}
+
+.product__images {
+    flex: 3;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.product__details {
+    flex: 2;
+}
+
+.product__main--image--container {
+    width: 500px;
+    height: 500px;
+    background-size: 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.product__images--icon {
+    width: 100px;
+    height: 100px;
+    border: 2px solid main;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.selected {
+    font-size: font-xl;
+    height: 50px;
+}
+
+.selected i {
+    margin: 10px;
+    cursor: pointer;
+}
+

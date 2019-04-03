@@ -1,0 +1,130 @@
+@value colors: '../../styles/colors.module.css';
+@value fonts: '../../styles/fonts.module.css';
+
+@value main, _gray-dark, gray200, gray100, gray300 from colors;
+@value font-md, font-lg, font-xl, sans-serif-secondary-font, sans-serif-primary-font, serif-primary-font, _bold from fonts;
+
+.checkout__container {
+    padding: 40px;
+    min-height: calc(100vh - 160px);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.checkout__products {
+    width: 660px;
+    margin-right: 20px;
+}
+
+.checkout__price {
+    height: 100%;
+    width: 300px;
+    background: #000;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.checkout__products ul {
+    margin: 0;
+    padding: 0;
+}
+
+.checkout__heading {
+    background-color: gray200;
+    font-weight: _bold;
+    margin: 0;
+    font-size: font-xl;
+    padding: 20px;
+}
+
+.product__container {
+    box-sizing: border-box;
+    margin: 0;
+    height: 200px;
+    border: 1px solid gray200;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__image {
+    width: 150px;
+    height: 150px;
+    background-size: 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.product__quantity {
+    color: _gray-dark;
+    font-size: 24px;
+}
+
+.product__details h1 {
+    margin: 0;
+}
+
+.product__quantity i {
+    cursor: pointer;
+    margin: 5px;
+}
+
+.product__quantity i:hover {
+    color: #000;
+}
+
+.product__price {
+    border-bottom: 1px solid _gray-dark;
+    padding: 10px 0;
+}
+
+.delete__button {
+    font-size: font-md;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: gray100;
+    border: 1px solid gray300;
+}
+
+.price__details {
+    padding: 20px 0;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    border-bottom: 1px solid gray300;
+}
+
+.price__details div {
+    font-size: font-xl;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price__title {
+    color: #ffffff;
+    margin: 0;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: _bold;
+    border-bottom: 1px solid gray300;
+}
+
+.price__label {
+    width: 200px;
+    text-transform: uppercase;
+}
+
+.checkout__buy {
+    padding: 20px 0;
+}
+
+.checkout__buy button {
+    width: 100%;
+    display: flex;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}

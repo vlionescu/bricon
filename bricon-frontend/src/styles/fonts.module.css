@@ -7,3 +7,7 @@
 @value sans-serif-primary-font: 'Josefin Sans', sans-serif;
 @value serif-primary-font: 'Lora', serif;
 
+@value _bold: 500;
+@value _bolder: 600;
+@value _boldest: 900;
+

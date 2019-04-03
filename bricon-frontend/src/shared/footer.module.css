@@ -1,0 +1,30 @@
+@value colors: '../styles/colors.module.css';
+
+@value main from colors;
+
+.footer__container {
+    height: 60px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copyright {
+    font-size: 16px;
+}
+.footer__icons {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.footer__icons a {
+    color: #000;
+}
+.footer__icons i {
+    padding: 5px;
+}
+
+.footer__icons i:hover {
+    color: main;
+}

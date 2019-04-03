@@ -1,12 +1,20 @@
 <component name="ProjectDictionaryState">
   <dictionary name="vlad.ionescu">
     <words>
+      <w>acasa</w>
       <w>articole</w>
       <w>bricon</w>
       <w>cloudinary</w>
+      <w>comanda</w>
+      <w>finalizare</w>
       <w>instructiuni</w>
+      <w>mimetype</w>
       <w>multer</w>
+      <w>originalname</w>
       <w>produse</w>
+      <w>produsele</w>
+      <w>subroute</w>
+      <w>subrow</w>
       <w>upsert</w>
     </words>
   </dictionary>

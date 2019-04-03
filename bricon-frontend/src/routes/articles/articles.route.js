@@ -28,8 +28,8 @@ class ArticlesRoute extends Component {
         return (
             <main className={styles.articles__container}>
             {
-                articles.map(({ title, text }) => (
-                    <Article title={title} content={text} />
+                articles.map(({ title, text, id }) => (
+                    <Article title={title} content={text} key={id} />
                 ))
             }
             </main>

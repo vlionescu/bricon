@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 
-import styles from './downloads.route.module.css';
+import Download from './components/download.component';
+
 import downloadsHelper from '../../helpers/downloads.helper';
+
+import styles from './downloads.route.module.css';
 
 class DownloadsRoute extends Component {
     state = {
         downloads: null,
     };
-
-    constructor(props) {
-        super(props);
-    }
 
     componentDidMount() {
         downloadsHelper.getDownloads()
@@ -24,21 +23,10 @@ class DownloadsRoute extends Component {
 
         return (
             <main>
-                <h2>
-                    Software downloads
-                </h2>
                 {downloads && <div className={styles.downloads__container}>
                     {
-                        downloads.map(({title, description, url, id}) => (
-                            <article className={styles.download} key={id}>
-                                <h2 className={styles.download__title}>{title}</h2>
-                                <div className={styles.download__content}>
-                                    <span className={styles.download__description}>{description}</span>
-                                    <span className={styles['download__link--container']}>
-                                        <a className={styles.downloads__button} href={url}>descarca</a>
-                                    </span>
-                                </div>
-                            </article>
+                        downloads.map(({id, title, description, url}) => (
+                            <Download id={id} title={title} description={description} url={url} key={id} />
                         ))
                     }
                 </div>

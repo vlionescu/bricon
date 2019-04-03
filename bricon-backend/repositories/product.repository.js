@@ -1,8 +1,18 @@
 const Products = require('../models/product.model');
 
 const getProducts = async () => {
-    return await Products.find();
+    return await Products.find({ quantity: { $gt: 0 } });
 };
+
+const getProduct = async (id) => {
+    return await Products.findOne({id});
+};
+
+const searchProducts = async (ids) => {
+    console.log(ids, 'ids')
+    return await Products.find({  id: { $in: ids } });
+};
+
 
 const addProduct = async productData => {
     const product = new Products(productData);
@@ -23,6 +33,8 @@ const deleteProduct = async id => {
 
 module.exports = {
     getProducts,
+    getProduct,
+    searchProducts,
     addProduct,
     updateProduct,
     deleteProduct,

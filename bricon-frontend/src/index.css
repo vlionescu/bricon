@@ -1,3 +1,54 @@
+@value colors: './styles/colors.module.css';
+@value spacings: './styles/spacings.module.css';
+@value fonts: './styles/fonts.module.css';
+
+@value main, _gray, _gray-dark from colors;
+@value button-padding from spacings;
+@value font-sm, font-lg, sans-serif-secondary-font, _bold from fonts;
+
+.main__button {
+  display: flex;
+  align-items: center;
+  color: white;
+  box-sizing: border-box;
+  background-color: main;
+  border: 1px solid main;
+  padding: button-padding;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: font-lg;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  font-family: sans-serif-secondary-font;
+  font-weight: _bold;
+}
+
+.main__button:hover {
+  background-color: white;
+  color: main;
+}
+
+.secondary__button {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  box-sizing: border-box;
+  background-color: _gray-dark;
+  border: 1px solid _gray-dark;
+  padding: 2px 7px;
+  text-decoration: none;
+  font-size: font-sm;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  font-family: sans-serif-secondary-font;
+  font-weight: 500;
+}
+
+.secondary__button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
 body {
   margin: 0;
   padding: 0;

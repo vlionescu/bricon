@@ -1,95 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28574431-3a97-45d0-9277-491dc5c4d23c" name="Default Changelist" comment="added products routes">
-      <change afterPath="$PROJECT_DIR$/bricon-backend/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-backend/models/category.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-backend/routes/category.route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-backend/routes/product.route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/helpers/categories.helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/home/home.route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/not-found/not-found.route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/not-found/not-found.route.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/products/components/product.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/products/products.route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/products/products.route.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/services/input-validation.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/shared/input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/shared/input.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/styles/fonts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bricon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bricon.iml" afterDir="false" />
+    <list default="true" id="28574431-3a97-45d0-9277-491dc5c4d23c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/actions/product.actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/constants/action-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/helpers/products.helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/middlewares/localhost.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/checkout/checkout.route.connected.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/checkout/checkout.route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/checkout/checkout.route.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/downloads/components/download.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/downloads/components/download.component.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/product-details/product-details.route.connected.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/product-details/product-details.route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/product-details/product-details.route.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/products/components/product.component.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/purchase/purchase.route.connected.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/purchase/purchase.route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/purchase/purchase.route.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/services/localhost.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/shared/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/shared/footer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/shared/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/shared/header/header.connected.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/shared/header/header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/shared/input-file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricon-frontend/src/stores/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/vlad_ionescu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/vlad_ionescu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-backend/routes/article.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-backend/routes/article.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-backend/routes/download.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-backend/routes/download.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-backend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-backend/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-admin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-admin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-admin/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-admin/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-admin/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-admin/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-admin/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-admin/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-admin/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-admin/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-admin/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-admin/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-admin/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-admin/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/public/assets/bricon-logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/public/assets/bricon-logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-backend/config/mongoose.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/helpers/articles.helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/helpers/articles.helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/helpers/downloads.helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/helpers/downloads.helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routers/__test__/app-router.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routers/__test__/app-router.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routers/app-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routers/app-router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/__test__/routes.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/__test__/routes.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/articles/articles.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/articles/articles.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/articles/articles.route.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/articles/articles.route.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/articles/components/article.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/articles/components/article.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/articles/components/article.component.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/articles/components/article.component.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/downloads/downloads.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/downloads/downloads.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/downloads/downloads.route.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/downloads/downloads.route.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/home/home.route.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/home/home.route.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/home/home.route.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/instructions/components/video-card.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/instructions/components/video-card.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/instructions/components/video-card.component.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/instructions/components/video-card.component.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/instructions/instructions.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/instructions/instructions.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/instructions/instructions.route.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/instructions/instructions.route.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/not-found/not-found.route.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/not-found/not-found.route.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-backend/handlers/category.handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/products/components/product.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-backend/handlers/product.handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/products/products.route.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/routes/products/products.route.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-backend/models/product.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/services/http.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/services/http.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/shared/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/shared/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/shared/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/shared/header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/shared/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-backend/repositories/category.repository.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/shared/input.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-backend/repositories/product.repository.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/styles/colors.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/styles/colors.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/styles/fonts.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/src/styles/spacings.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/styles/spacings.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricon-frontend-public/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-backend/handlers/product.handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-backend/handlers/product.handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-backend/models/product.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-backend/models/product.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-backend/repositories/product.repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-backend/repositories/product.repository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-backend/routes/product.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-backend/routes/product.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/routers/app-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routers/app-router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/routes/articles/articles.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/articles/articles.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/routes/articles/articles.route.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/articles/articles.route.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/routes/articles/components/article.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/articles/components/article.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/routes/articles/components/article.component.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/articles/components/article.component.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/routes/downloads/downloads.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/downloads/downloads.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/routes/downloads/downloads.route.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/downloads/downloads.route.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/routes/home/home.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/home/home.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/routes/home/home.route.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/home/home.route.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/routes/instructions/instructions.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/instructions/instructions.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/routes/products/components/product.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/products/components/product.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/routes/products/products.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/products/products.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/routes/products/products.route.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/routes/products/products.route.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/services/http.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/services/http.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/services/input-validation.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/services/input-validation.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/shared/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/shared/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/shared/header.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/shared/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/shared/input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/shared/input.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/shared/input.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/styles/colors.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/styles/colors.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/src/styles/fonts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/src/styles/fonts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricon-frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bricon-frontend/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bricon-backend/node_modules/" />
     <ignored path="$PROJECT_DIR$/bricon-frontend-public/node_modules/" />
@@ -107,40 +79,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/home/home.route.js">
+        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/checkout/checkout.route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bricon-frontend/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/products/products.route.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+            <state relative-caret-position="245">
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="44" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -149,10 +91,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/shared/header.js">
+        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/checkout/checkout.route.connected.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="238">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routers/app-router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="84" selection-start-line="30" selection-start-column="84" selection-end-line="30" selection-end-column="84" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -161,39 +115,74 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/shared/input.js">
+        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/services/input-validation.service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="108" selection-start-line="4" selection-start-column="108" selection-end-line="4" selection-end-column="108" />
+            <state relative-caret-position="136">
+              <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/downloads/downloads.route.module.css">
+        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/purchase/purchase.route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state relative-caret-position="136">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/11.9.0/core-modules/internal/modules/cjs/loader.js">
+        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/purchase/purchase.route.connected.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="625" column="31" selection-start-line="625" selection-start-column="31" selection-end-line="625" selection-end-column="31" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/stores/store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/actions/product.actions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/constants/action-types.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/purchase/purchase.route.module.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -201,24 +190,49 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cx</find>
       <find>faAngleDown</find>
       <find>angle</find>
       <find>content</find>
       <find>photo</find>
       <find>Image</find>
-      <find>console.log</find>
       <find>&quot;</find>
       <find>router</find>
+      <find>getDownloads</find>
+      <find>getArticles</find>
+      <find>exclama</find>
+      <find>20</find>
+      <find>cx</find>
+      <find>FOnt</find>
+      <find>FontA</find>
+      <find>FOnta</find>
+      <find>icon</find>
+      <find>500</find>
+      <find>400</find>
+      <find>_gray</find>
+      <find>gray</find>
+      <find>light-gr</find>
+      <find>index</find>
+      <find>onsole.log</find>
+      <find>localstorag</find>
+      <find>localstorage.se</find>
+      <find>console.log</find>
+      <find>productId</find>
+      <find>_gray-light</find>
+      <find>map</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
+      <replace>400</replace>
+      <replace>300</replace>
+      <replace>_gray</replace>
+      <replace>gray200</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -232,45 +246,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/services/input-validation.service.js" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/shared/input.module.css" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/shared/input.js" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/routes/not-found/not-found.route.js" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/styles/fonts.module.css" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/routes/downloads/downloads.route.module.css" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/helpers/articles.helper.js" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/routes/articles/components/article.component.js" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/styles/colors.module.css" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/shared/header.module.css" />
-        <option value="$PROJECT_DIR$/bricon-backend/models/products.model.js" />
-        <option value="$PROJECT_DIR$/bricon-backend/models/categories.model.js" />
-        <option value="$PROJECT_DIR$/bricon-backend/repositories/category.repository.js" />
-        <option value="$PROJECT_DIR$/bricon-backend/handlers/category.handler.js" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/App.js" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/helpers/categories.helper.js" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/routes/articles/articles.route.module.css" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/routes/articles/components/article.component.module.css" />
-        <option value="$PROJECT_DIR$/bricon-backend/models/category.model.js" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/public/index.html" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/routes/articles/articles.route.js" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/routes/products/products.route.js" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/routes/downloads/downloads.route.js" />
-        <option value="$PROJECT_DIR$/bricon-backend/handlers/image.handler.js" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/index.js" />
-        <option value="$PROJECT_DIR$/bricon-backend/routes/category.route.js" />
-        <option value="$PROJECT_DIR$/bricon-backend/routes/article.route.js" />
-        <option value="$PROJECT_DIR$/bricon-backend/routes/download.route.js" />
-        <option value="$PROJECT_DIR$/bricon-backend/config/mongoose.js" />
-        <option value="$PROJECT_DIR$/bricon-backend/config/index.js" />
-        <option value="$PROJECT_DIR$/bricon-backend/handlers/product.handler.js" />
-        <option value="$PROJECT_DIR$/bricon-backend/models/product.model.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/downloads/downloads.route.module.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/shared/header.module.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/articles/components/article.component.module.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/shared/footer.module.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/products/products.route.module.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/products/components/product.component.module.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/products/subroutes/product-details.subroute.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/home/home.route.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/index.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/actions/action-types.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/shared/header.connected.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/shared/header.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/services/localhost.service.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/shared/header/header.module.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/shared/form.js" />
         <option value="$PROJECT_DIR$/bricon-backend/routes/product.route.js" />
-        <option value="$PROJECT_DIR$/bricon-backend/app.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/helpers/products.helper.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/product-details/product-details.route.connected.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/shared/header/header.connected.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/middlewares/localhost.middleware.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/product-details/styles.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/styles/styles.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/styles/fonts.module.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/App.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/styles/styles.module.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/product-details/product-details.route.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/App.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/downloads/components/download.component.module.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/downloads/components/download.component.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/product-details/product-details.route.module.css" />
+        <option value="$PROJECT_DIR$/bricon-backend/handlers/product.handler.js" />
         <option value="$PROJECT_DIR$/bricon-backend/repositories/product.repository.js" />
-        <option value="$PROJECT_DIR$/bricon-frontend-public/src/routes/home/home.route.js" />
-        <option value="$PROJECT_DIR$/bricon-frontend/public/index.html" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/index.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/products/components/product.component.js" />
         <option value="$PROJECT_DIR$/bricon-frontend/src/routes/products/products.route.js" />
-        <option value="$PROJECT_DIR$/bricon-frontend/src/shared/input.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/articles/articles.route.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/instructions/instructions.route.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/downloads/downloads.route.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/shared/header/header.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/styles/colors.module.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/checkout/checkout.route.module.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/checkout/checkout.route.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/purchase/purchase.route.module.css" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routers/app-router.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/index.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/constants/action-types.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/stores/store.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/actions/product.actions.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/checkout/checkout.route.connected.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/purchase/purchase.route.connected.js" />
+        <option value="$PROJECT_DIR$/bricon-frontend/src/routes/purchase/purchase.route.js" />
       </list>
     </option>
   </component>
@@ -281,9 +307,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="86" />
-    <option name="width" value="1829" />
-    <option name="height" value="1080" />
+    <option name="x" value="66" />
+    <option name="y" value="-8" />
+    <option name="width" value="1862" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -303,6 +330,71 @@
               <item name="bricon" type="462c0819:PsiDirectoryNode" />
               <item name="bricon-frontend" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bricon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bricon" type="462c0819:PsiDirectoryNode" />
+              <item name="bricon-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bricon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bricon" type="462c0819:PsiDirectoryNode" />
+              <item name="bricon-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bricon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bricon" type="462c0819:PsiDirectoryNode" />
+              <item name="bricon-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bricon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bricon" type="462c0819:PsiDirectoryNode" />
+              <item name="bricon-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="checkout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bricon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bricon" type="462c0819:PsiDirectoryNode" />
+              <item name="bricon-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="purchase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bricon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bricon" type="462c0819:PsiDirectoryNode" />
+              <item name="bricon-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bricon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bricon" type="462c0819:PsiDirectoryNode" />
+              <item name="bricon-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bricon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bricon" type="462c0819:PsiDirectoryNode" />
+              <item name="bricon-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bricon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bricon" type="462c0819:PsiDirectoryNode" />
+              <item name="bricon-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -314,11 +406,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.9.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vlad.ionescu\Desktop\bricon\bricon-frontend\src\styles" />
+      <recent name="C:\Users\vlad.ionescu\Desktop\bricon\bricon-frontend\src\shared\header" />
+      <recent name="C:\Users\vlad.ionescu\Desktop\bricon\bricon-frontend\src\constants" />
+      <recent name="C:\Users\vlad.ionescu\Desktop\bricon\bricon-frontend\src\routes" />
       <recent name="C:\Users\vlad.ionescu\Desktop\bricon\bricon-backend\assets" />
     </key>
   </component>
@@ -353,14 +450,24 @@
       <workItem from="1552934774371" duration="3072000" />
       <workItem from="1553015535540" duration="4832000" />
       <workItem from="1553191332974" duration="7509000" />
-      <workItem from="1553333919716" duration="9404000" />
+      <workItem from="1553333919716" duration="22158000" />
+      <workItem from="1553690535424" duration="3820000" />
+      <workItem from="1553752231535" duration="6208000" />
+      <workItem from="1553800907830" duration="5639000" />
+      <workItem from="1553887557531" duration="7126000" />
+      <workItem from="1554100288004" duration="250000" />
+      <workItem from="1554139169289" duration="16936000" />
+      <workItem from="1554200491973" duration="12000" />
+      <workItem from="1554201935380" duration="22494000" />
+      <workItem from="1554280690118" duration="1508000" />
+      <workItem from="1554313470289" duration="7562000" />
     </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <created>1552027344296</created>
+    <task id="LOCAL-00001" summary="added products routes">
+      <created>1553358840001</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1552027344296</updated>
+      <updated>1553358840001</updated>
     </task>
     <task id="LOCAL-00002" summary="initial commit">
       <created>1552027868589</created>
@@ -411,15 +518,17 @@
       <option name="project" value="LOCAL" />
       <updated>1552125373430</updated>
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33592000" />
+    <option name="totallyTimeSpent" value="117901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-8" width="1862" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25164473" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2510965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -430,15 +539,36 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3281412" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49671054" visible="true" weight="0.32606438" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48958334" weight="0.33125648" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50328946" side_tool="true" visible="true" weight="0.32606438" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49671054" visible="true" weight="0.15264797" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48790124" weight="0.031152649" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5120988" side_tool="true" weight="0.3309859" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32914045" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49945176" weight="0.3281412" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25135803" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3281412" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49671054" weight="0.32606438" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.48790124" visible="true" weight="0.3309859" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5120988" side_tool="true" visible="true" weight="0.3309859" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32914045" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49945176" weight="0.3281412" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -472,319 +602,145 @@
     <MESSAGE value="added products routes" />
     <option name="LAST_COMMIT_MESSAGE" value="added products routes" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/bricon-frontend/src/shared/input.js</url>
+          <line>100</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/bricon-frontend/src/routes/checkout/checkout.route.connected.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/services/http.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/not-found/not-found.route.module.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/styles/fonts.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/styles/spacings.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/shared/input.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/not-found/not-found.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/helpers/articles.helper.js">
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/articles/articles.route.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/articles/components/article.component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="306">
+          <caret line="18" column="32" lean-forward="true" selection-end-line="57" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/styles/colors.module.css">
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/instructions/components/video-card.component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/shared/header.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/models/article.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/models/download.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/repositories/article.repositiory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/repositories/category.repository.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/helpers/downloads.helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/helpers/categories.helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ive-server/services/upload.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ive-server/routes/account.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ive-server/models/account.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ive-server/handlers/account.handler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="301" column="51" selection-start-line="301" selection-start-column="46" selection-end-line="301" selection-end-column="51" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/articles/articles.route.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/models/category.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="24" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/articles/components/article.component.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/articles/articles.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/downloads/downloads.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-end-line="15" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/node_modules/multer/index.js">
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/articles/components/article.component.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
+        <state relative-caret-position="-246">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/routes/category.route.js">
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/products/components/product.component.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="391">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/routes/download.route.js">
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/downloads/downloads.route.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/config/index.js">
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/products/products.route.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/config/mongoose.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/handlers/article.handler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="34" lean-forward="true" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/repositories/download.repository.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="2" lean-forward="true" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/routes/article.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="52" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/handlers/category.handler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/models/product.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/repositories/product.repository.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/routes/product.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-backend/handlers/product.handler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/home/home.route.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="529">
+          <caret line="47" column="18" lean-forward="true" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/services/localhost.service.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-backend/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/product-details/product-details.route.connected.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/helpers/products.helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/shared/header/header.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/middlewares/localhost.middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/App.css" />
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/styles/styles.module.css" />
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/downloads/components/download.component.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/downloads/components/download.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -793,63 +749,261 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bricon-frontend/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/11.9.0/core-modules/internal/modules/cjs/loader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="625" column="31" selection-start-line="625" selection-start-column="31" selection-end-line="625" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/products/products.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        <state relative-caret-position="34">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/shared/header.js">
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/shared/header/header.connected.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="289">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/product-details/product-details.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="90" column="26" lean-forward="true" selection-start-line="86" selection-start-column="20" selection-end-line="90" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/product-details/product-details.route.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-backend/handlers/product.handler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-backend/routes/product.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-backend/repositories/product.repository.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/shared/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/products/products.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="52" column="71" selection-start-line="52" selection-start-column="71" selection-end-line="52" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/articles/articles.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/instructions/instructions.route.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/instructions/instructions.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="33" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/downloads/downloads.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="103" selection-start-line="28" selection-start-column="103" selection-end-line="28" selection-end-column="103" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/home/home.route.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/products/components/product.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/shared/input.js">
+    <entry file="file://$PROJECT_DIR$/bricon-backend/models/product.model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="357">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/services/input-validation.service.js">
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/shared/footer.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="108" selection-start-line="4" selection-start-column="108" selection-end-line="4" selection-end-column="108" />
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/downloads/downloads.route.module.css">
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/styles/fonts.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state relative-caret-position="119">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/styles/colors.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/checkout/checkout.route.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/shared/header/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="95" column="20" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="95" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/purchase/purchase.route.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routers/app-router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="84" selection-start-line="30" selection-start-column="84" selection-end-line="30" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/constants/action-types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/stores/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/actions/product.actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/checkout/checkout.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/checkout/checkout.route.connected.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/purchase/purchase.route.connected.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bricon-frontend/src/routes/purchase/purchase.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

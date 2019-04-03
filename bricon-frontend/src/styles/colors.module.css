@@ -1,4 +1,11 @@
 @value main: #00B8FC;
-@value _red: #d8000c;
-@value gray: #c2c4c6;
-@value light-gray: #eeeeee;
+@value _green: #4BB543;
+@value _green-dark: #3A5F0B;
+@value _red: #D8000c;
+
+@value gray100: #F7F7F7;
+@value gray200: #EEEEEE;
+@value gray300: #E5E5E5;
+@value _gray: #C2C4C6;
+@value _gray-dark: #666666;
+

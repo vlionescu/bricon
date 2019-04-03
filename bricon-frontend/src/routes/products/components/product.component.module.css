@@ -1,0 +1,46 @@
+@value colors: '../../../styles/colors.module.css';
+@value fonts: '../../../styles/fonts.module.css';
+
+@value _gray, _gray-dark from colors;
+@value _bolder from fonts;
+
+.product__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.product__container:hover {
+    border: 1px solid _gray;
+}
+
+.product__details {
+    width: 100%;
+    border-top: 1px solid _gray;
+}
+
+.product__image {
+    padding: 20px;
+}
+
+.product__image div {
+    width: 220px;
+    height: 220px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.product__name {
+    font-size: 24px;
+    margin: 0;
+    font-weight: _bolder;
+}
+
+.product__category, .product__price {
+    color: _gray-dark;
+    font-size: 18px;
+}

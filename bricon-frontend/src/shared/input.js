@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import cx from 'classnames';
 
@@ -26,7 +25,9 @@ export default class Input extends Component {
             case 'url':
                 validator = validators.isURL;
                 break;
-
+            case 'number':
+                validator = validators.isNumber;
+                break;
             default:
                 validator = validators.isText;
                 break;
@@ -36,7 +37,7 @@ export default class Input extends Component {
     };
 
     _handleChange = ({target: {value}}) => {
-        const { onChange, type, isRequired } = this.props;
+        const { onChange, type, isRequired, name } = this.props;
         value = value.trim();
 
         let isValid;
@@ -56,9 +57,9 @@ export default class Input extends Component {
         this.setState({ isValid, errorMessage });
 
         if (isValid) {
-            onChange(value);
+            onChange(name, value);
         } else {
-            onChange(null);
+            // onChange(null);/
         }
     };
 
@@ -85,8 +86,11 @@ export default class Input extends Component {
         const { isValid, errorMessage } = this.state;
 
         return (
-            <React.Fragment>
-                <label htmlFor={id}>{labelName}</label>
+            <div>
+                <label
+                    htmlFor={id}
+                    className={styles.label}
+                >{labelName}</label>
                 {type === 'textarea' ? (
                     <React.Fragment>
                         <textarea
@@ -96,7 +100,7 @@ export default class Input extends Component {
                             onChange={this._handleChange}
                         >
                         </textarea>
-                        { isValid ? null :  <FontAwesomeIcon className={styles['input__icon--error']} icon="exclamation-circle" title={errorMessage}/> }
+                        { isValid ? null :  <i className={cx('fa', 'fa-exclamation-circle', styles['input__icon--error'])} title={errorMessage}/> }
                     </React.Fragment>
                     )
                     : (
@@ -108,11 +112,11 @@ export default class Input extends Component {
                                 className={this._getInputClass()}
                                 onBlur={this._handleChange}
                             />
-                            { isValid ? null :  <FontAwesomeIcon className={styles['input__icon--error']} icon="exclamation-circle" title={errorMessage}/> }
+                            { isValid ? null :  <i className={cx('fa', 'fa-exclamation-circle', styles['input__icon--error'])} title={errorMessage}/> }
                         </React.Fragment>
                     )
                 }
-            </React.Fragment>
+            </div>
         );
     };
 };

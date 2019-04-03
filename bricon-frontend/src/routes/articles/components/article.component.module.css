@@ -1,12 +1,12 @@
 @value colors: '../../../styles/colors.module.css';
 @value spacings: '../../../styles/spacings.module.css';
 
-@value gray, main from colors;
+@value _gray, main from colors;
 @value main-spacing from spacings;
 
 .article__container {
     width: 800px;
-    border: 1px solid gray;
+    border: 1px solid _gray;
     border-radius: 5px;
     margin-bottom: main-spacing;
     position: relative;

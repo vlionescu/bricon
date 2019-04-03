@@ -12,6 +12,14 @@
     outline: none;
 }
 
+.label {
+    display: block;
+}
+
+.input__file {
+    background-color: red;
+}
+
 .input__icon--error {
     color: _red;
 }
