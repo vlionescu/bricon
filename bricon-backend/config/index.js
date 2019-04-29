@@ -5,4 +5,8 @@ module.exports = {
         api_key: '199234261162774',
         api_secret: 'PeNakyg7j7qZfezSdPKoGW3o2gM'
     },
+    gmailConfig: {
+        user: 'frontend.vlad.ionescu@gmail.com',
+        pass: 'c00lsville',
+    }
 };

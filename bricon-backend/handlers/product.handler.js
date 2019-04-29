@@ -30,7 +30,6 @@ const getProduct = async (req, res) => {
 const searchProducts = async (req, res) => {
     try {
         const products = await productRepository.searchProducts(req.body);
-        console.log(products.length, 'length')
         res.json({
             success: true,
             payload: { products },
@@ -39,6 +38,21 @@ const searchProducts = async (req, res) => {
         res.status(400).send(err);
     }
 };
+
+const purchaseProducts = async (req, res) => {
+    try {
+        const products = await productRepository.purchaseProducts(req.body);
+        console.log('done');
+        res.json({
+            success: true,
+            payload: { products },
+        });
+    } catch (err) {
+        console.log('err');
+        res.status(400).send(err);
+    }
+};
+
 
 const addProduct = async (req, res) => {
     try {
@@ -100,6 +114,7 @@ module.exports = {
     getProducts,
     getProduct,
     searchProducts,
+    purchaseProducts,
     addProduct,
     updateProduct,
     deleteProduct,

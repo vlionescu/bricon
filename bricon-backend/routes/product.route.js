@@ -21,9 +21,11 @@ const router = express.Router();
 
 router.get('/', productHandler.getProducts);
 
+router.get('/:id', productHandler.getProduct);
+
 router.post('/search', productHandler.searchProducts);
 
-router.get('/:id', productHandler.getProduct);
+router.post('/purchase', productHandler.purchaseProducts);
 
 router.post('/', parser.array('images'), productHandler.addProduct);
 

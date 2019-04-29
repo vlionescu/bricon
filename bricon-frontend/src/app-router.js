@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import Header from '../shared/header/header.connected';
-import Footer from '../shared/footer';
+import Header from './shared/header/header.connected';
+import Footer from './shared/footer';
 import {
     ArticlesRoute,
     HomeRoute,
@@ -13,7 +13,7 @@ import {
     DownloadsRoute,
     CheckoutRoute,
     PurchaseRoute
-} from '../routes/index';
+} from './routes';
 
 const AppRouter = () => {
     return (
